@@ -9,36 +9,47 @@ URxvt*secondaryScroll: 0
 !URxvt*secondaryWheel: 1
 
 !-- Font --!
-URxvt*font:xft:droid sans mono:size=8
-URxvt*boldFont:xft:droid sans mono:size=8
+URxvt*font: xft:Terminus:style=Regular:pixelsize=18, -*-terminus-medium-r-*-*-*-*-*-*-*-*-koi8-*
+URxvt*boldFont: xft:Terminus:style=Regular:pixelsize=18, -*-terminus-medium-r-*-*-*-*-*-*-*-*-koi8-*
 
+!==============================================================================
+! Colors 
+!==============================================================================
+!-- Bold color --!
+URxvt*colorBD:     #e6d51d
 !-- Background color --!
-URxvt*background: Black
+URxvt*background:  #111111
 !-- Text color --!
-URxvt*foreground: White
+URxvt*foreground:  #b4b4b4
 !-- Cursor color --!
-URxvt*cursorColor: Grey
-
-!-- Colors --!
-URxvt*color0:  #000000 // black
-URxvt*color1:  #B40000 // red
-URxvt*color2:  #00AA00 // green
-URxvt*color3:  #AAAA00 // yellow
-URxvt*color4:  #5555AA // blue
-URxvt*color5:  #AA00AA // magenta
-URxvt*color6:  #00AAAA // cyan
-URxvt*color7:  #AAAAAA // white
-URxvt*color8:  #555555 // black (now and below: bright)
-URxvt*color9:  #FF0000 // red
-URxvt*color10: #00FF00 // green
-URxvt*color11: #FFFF00 // yellow
-URxvt*color12: #6464FF // blue
-URxvt*color13: #FF00FF // magenta
-URxvt*color14: #00FFFF // cyan
-URxvt*color15: #FFFFFF // white
+!URxvt*cursorColor: Grey
+! Black
+URxvt*color0:      #000000
+URxvt*color8:      #555753
+! Red
+URxvt*color1:      #b6212d
+URxvt*color9:      #ff6565
+! Green
+URxvt*color2:      #4c8d00
+URxvt*color10:     #6bbe1a
+! Yellow
+URxvt*color3:      #ff8040
+URxvt*color11:     #e6d51d
+! Blau
+URxvt*color4:      #0086d2
+URxvt*color12:     #00d2ff
+! Magenta
+URxvt*color5:      #963c59
+URxvt*color13:     #d3649f
+! Cyanic
+URxvt*color6:      #105952
+URxvt*color14:     #177f75
+! White
+URxvt*color7:      #cdcaa9
+URxvt*color15:     #ffffff
 
 !-- Xft settings --!
-Xft.dpi:        120
+Xft.dpi:        96
 Xft.antialias:  true
 Xft.rgba:       rgb
 Xft.hinting:    true
@@ -46,7 +57,7 @@ Xft.hintstyle:  hintslight
 Xft.lcdfilter: ldcdefault
 
 !-- Minimize spaces between chars --!
-URxvt*letterSpace: -1
+!URxvt*letterSpace: -1
 
 !-- Tabs --!
 URxvt*perl-ext-common: default,tabbed
