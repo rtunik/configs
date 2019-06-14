@@ -1,0 +1,108 @@
+!-- Scroll style --!
+URxvt*scrollstyle: next
+URxvt*scrollTtyOutput: false
+URxvt*scrollWithBuffer: true
+
+!-- Scroll secondary screen --!
+URxvt*secondaryScreen: 1
+URxvt*secondaryScroll: 0
+!URxvt*secondaryWheel: 1
+
+!-- Font --!
+!URxvt*font:xft:droid sans mono:size=9
+!URxvt*boldFont:xft:droid sans mono:size=9
+
+!URxvt*font:xft:bitstream vera sans mono:size=10
+!URxvt*boldFont:xft:bitstream vera sans mono:bold:size=10
+
+URxvt*font:xft:Terminus-14:style=Regular:pixelsize=20:antialias=false
+URxvt*boldFont:xft:Terminus-14:style=Regular:pixelsize=20:antialias=false
+
+!-- Background color --!
+!URxvt*background: Black
+!-- Text color --!
+!URxvt*foreground: White
+!-- Cursor color --!
+!URxvt*cursorColor: Grey
+
+!==============================================================================
+! Цвета 
+!==============================================================================
+URxvt*colorBD:     #e6d51d
+URxvt*background:  #111111
+URxvt*foreground:  #b4b4b4
+! Чёрный
+URxvt*color0:      #000000
+URxvt*color8:      #555753
+! Красный
+URxvt*color1:      #b6212d
+URxvt*color9:      #ff6565
+! Зелёный
+URxvt*color2:      #4c8d00
+URxvt*color10:     #6bbe1a
+! Жёлтый
+URxvt*color3:      #ff8040
+URxvt*color11:     #e6d51d
+! Синий
+URxvt*color4:      #0086d2
+URxvt*color12:     #00d2ff
+! Маджента
+URxvt*color5:      #963c59
+URxvt*color13:     #d3649f
+! Циановый
+URxvt*color6:      #105952
+URxvt*color14:     #177f75
+! Белый
+URxvt*color7:      #cdcaa9
+URxvt*color15:     #ffffff
+
+
+!-- Colors --!
+!URxvt*color0:  #000000 // black
+!URxvt*color1:  #B40000 // red
+!URxvt*color2:  #00AA00 // green
+!URxvt*color3:  #AAAA00 // yellow
+!URxvt*color4:  #5555AA // blue
+!URxvt*color5:  #AA00AA // magenta
+!URxvt*color6:  #00AAAA // cyan
+!URxvt*color7:  #AAAAAA // white
+!URxvt*color8:  #555555 // black (now and below: bright)
+!URxvt*color9:  #FF0000 // red
+!URxvt*color10: #00FF00 // green
+!URxvt*color11: #FFFF00 // yellow
+!URxvt*color12: #6464FF // blue
+!URxvt*color13: #FF00FF // magenta
+!URxvt*color14: #00FFFF // cyan
+!URxvt*color15: #FFFFFF // white
+
+!-- Xft settings --!
+Xft.dpi:        96
+Xft.antialias:  true
+Xft.rgba:       rgb
+Xft.hinting:    true
+Xft.hintstyle:  hintslight
+Xft.lcdfilter: ldcdefault
+
+!-- Minimize spaces between chars --!
+!URxvt*letterSpace: -1
+
+!-- Tabs --!
+URxvt*perl-ext-common: default,tabbed
+URxvt*tabbed.new-button: no
+URxvt*tabbed.tabbar-fg: 2
+URxvt*tabbed.tabbar-bg: 0
+URxvt*tabbed.tab-fg: 3
+URxvt*tabbed.tab-bg: 0
+
+!-- Launch firefox with the a left click on a URL --!
+URxvt*url-launcher: /usr/bin/firefox
+URxvt*matcher.button: 1
+
+!-- Icon --!
+URxvt*iconFile: /usr/share/icons/Humanity/apps/48/bash.svg
+URxvt*iso14755: off
+URxvt*iso14755_52: off
+
+! correct name so that applications detects a 256 color
+! enabled terminal emulator
+URxvt*termName: rxvt-256color
