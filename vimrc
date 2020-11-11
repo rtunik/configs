@@ -1,3 +1,5 @@
+source ~/.vimrc.plugins.vim
+
 " Line numbers
 set nu
 
@@ -5,7 +7,7 @@ set nu
 syntax on
 
 " Using pathogen for plugins
-execute pathogen#infect()
+"execute pathogen#infect()
 
 " Start NERDTree automatically
 " autocmd VimEnter * NERDTree
@@ -40,8 +42,8 @@ set hlsearch
 set incsearch
 
 " Colorscheme
-"colorscheme d8g_03
-colorscheme 3dglasses
+colorscheme elflord
+"colorscheme 3dglasses
 
 " get file settings
 set modeline
@@ -49,15 +51,8 @@ set modeline
 " set tw for git commits
 au FileType gitcommit set tw=72
 
-" syntastic
-set statusline+=%#warningmsg#
-set statusline+=%{SyntasticStatuslineFlag()}
-set statusline+=%*
-
-"let g:syntastic_always_populate_loc_list = 1
-"let g:syntastic_auto_loc_list = 1
-"let g:syntastic_check_on_open = 1
-let g:syntastic_check_on_wq = 0
-
 " align new line
 set autoindent
+
+" filetype plugin
+filetype plugin on
